@@ -20,7 +20,7 @@ nixpkgs_cc_configure(
     #     "@platforms//os:osx",
     # ],
     repository = "@nixpkgs",
-    attribute_path = "clang_15",
+    #attribute_path = "clang_15",
     # nix_file_content = "(import <nixpkgs> {}).clang_15",
     # target_constraints = [
     #     "@platforms//cpu:arm64",
